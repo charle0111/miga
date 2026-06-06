@@ -709,3 +709,66 @@ a:hover {
 .text-success { color: var(--color-melon) !important; }
 .text-warning { color: var(--color-strawberry) !important; }
 .text-danger { color: var(--color-strawberry) !important; }
+
+/* ==========================================================================
+   WEATHER CARD SPECIAL STYLING
+   ========================================================================== */
+.weather-regions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.weather-region {
+  border-bottom: 1px dashed var(--border-color);
+  padding-bottom: 10px;
+}
+
+.weather-region:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.region-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 4px;
+}
+
+.region-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.region-info .temp {
+  font-weight: 500;
+}
+
+.weather-tip-box {
+  background-color: var(--color-sky-light) !important;
+  border-left: 3px solid var(--color-sky) !important;
+  font-size: 0.82rem !important;
+  margin-top: 10px;
+  padding: 10px 12px !important;
+  color: var(--text-dark) !important;
+  line-height: 1.5 !important;
+}
+
+.header-weather {
+  font-size: 0.78rem;
+  font-weight: 500;
+  background-color: var(--color-sky-light);
+  color: var(--color-sky);
+  padding: 3px 8px;
+  border-radius: 12px;
+  margin-left: 8px;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid rgba(125, 168, 191, 0.15);
+}

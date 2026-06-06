@@ -21,7 +21,7 @@
     <!-- Hero Banner -->
     <header class="hero-banner" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.35)), url('assets/banner.png');">
       <div class="hero-content">
-        <span class="trip-dates"><i class="fa-regular fa-calendar-days"></i> 2026.06.11 ~ 06.16</span>
+        <span class="trip-dates"><i class="fa-regular fa-calendar-days"></i> 2026.06.11 ~ 06.16 | 🌤️ 10°C ~ 24°C</span>
         <h1 class="trip-title">北海道 6日初夏盛宴</h1>
         <p class="trip-subtitle">薰衣草、溫泉、美食與美景的完美邂逅 🍓🍦</p>
       </div>
@@ -39,12 +39,12 @@
     <nav class="day-tabs-wrapper">
       <div class="day-tabs" id="dayTabs">
         <button class="tab-btn active" data-day="overview"><i class="fa-solid fa-compass"></i> 總覽</button>
-        <button class="tab-btn" data-day="1"><span>Day 1</span>6/11 (木)</button>
-        <button class="tab-btn" data-day="2"><span>Day 2</span>6/12 (五)</button>
-        <button class="tab-btn" data-day="3"><span>Day 3</span>6/13 (土)</button>
-        <button class="tab-btn" data-day="4"><span>Day 4</span>6/14 (日)</button>
-        <button class="tab-btn" data-day="5"><span>Day 5</span>6/15 (一)</button>
-        <button class="tab-btn" data-day="6"><span>Day 6</span>6/16 (二)</button>
+        <button class="tab-btn" data-day="1"><span>Day 1</span>6/11 (木) ⛅</button>
+        <button class="tab-btn" data-day="2"><span>Day 2</span>6/12 (五) ☀️</button>
+        <button class="tab-btn" data-day="3"><span>Day 3</span>6/13 (土) ☀️</button>
+        <button class="tab-btn" data-day="4"><span>Day 4</span>6/14 (日) 💨</button>
+        <button class="tab-btn" data-day="5"><span>Day 5</span>6/15 (一) ⛅</button>
+        <button class="tab-btn" data-day="6"><span>Day 6</span>6/16 (二) ⛅</button>
       </div>
     </nav>
 
@@ -127,6 +127,40 @@
             </div>
           </div>
 
+          <!-- Weather Forecast & Dressing Tips Card -->
+          <div class="overview-card weather-card">
+            <h3><i class="fa-solid fa-cloud-sun"></i> 2026 初夏天氣與穿搭建議 ☀️</h3>
+            <div class="weather-content">
+              <div class="weather-regions">
+                <div class="weather-region">
+                  <div class="region-title">札幌 / 小樽 (D1, D5-6)</div>
+                  <div class="region-info">
+                    <span class="temp"><i class="fa-solid fa-temperature-half text-primary"></i> 14°C ~ 22°C</span>
+                    <span class="condition">⛅ 舒適晴朗 / 多雲</span>
+                  </div>
+                </div>
+                <div class="weather-region">
+                  <div class="region-title">旭川 / 富良野 / 美瑛 (D2-3)</div>
+                  <div class="region-info">
+                    <span class="temp"><i class="fa-solid fa-temperature-half text-primary"></i> 10°C ~ 24°C</span>
+                    <span class="condition">☀️ 晴朗，日夜溫差大</span>
+                  </div>
+                </div>
+                <div class="weather-region">
+                  <div class="region-title">登別 / 洞爺湖 (D4-5)</div>
+                  <div class="region-info">
+                    <span class="temp"><i class="fa-solid fa-temperature-half text-primary"></i> 12°C ~ 18°C</span>
+                    <span class="condition">💨 溫泉湖畔，風大較涼</span>
+                  </div>
+                </div>
+              </div>
+              <div class="tip weather-tip-box">
+                <strong><i class="fa-solid fa-shirt"></i> 穿衣建議（洋蔥式穿法）：</strong><br>
+                白天陽光下非常溫暖舒適，穿著短袖或薄長袖即可；但太陽下山後溫度會驟降至 10°C 左右（特別是山區或湖畔），請隨身攜帶防風外套、薄針織衫或連帽外套，避免感冒。
+              </div>
+            </div>
+          </div>
+
           <!-- Checklist Card -->
           <div class="overview-card list-card">
             <h3><i class="fa-solid fa-list-check"></i> 出發前待辦 & 必備物品</h3>
@@ -149,7 +183,7 @@
             <img src="assets/day1.png" alt="札幌與祭典" class="illustration-img">
           </div>
           <div class="day-title-info">
-            <h2>Day 1：抵達北國 ➔ 狂歡索朗祭 🏮</h2>
+            <h2>Day 1：抵達北國 ➔ 狂歡索朗祭 🏮 <span class="header-weather"><i class="fa-solid fa-cloud-sun"></i> ⛅ 14°C ~ 22°C</span></h2>
             <p class="day-summary">乘著夜色抵達札幌，步行前往大通公園感受北海道初夏最熱血的 YOSAKOI 索朗祭封街慶典！</p>
           </div>
         </div>
@@ -205,7 +239,7 @@
             <img src="assets/day2.png" alt="動物園與草莓" class="illustration-img">
           </div>
           <div class="day-title-info">
-            <h2>Day 2：自駕啟航 ➔ 美妝旗艦、企鵝漫步與燒肉盆地夜景 🐧</h2>
+            <h2>Day 2：自駕啟航 ➔ 美妝旗艦、企鵝漫步與燒肉盆地夜景 🐧 <span class="header-weather"><i class="fa-solid fa-sun"></i> ☀️ 10°C ~ 24°C</span></h2>
             <p class="day-summary">今日開啟自駕之旅！從札幌向北出發，造訪超人氣美妝總店，下午近距離親近可愛北極熊與企鵝，傍晚體驗鮮甜草莓狩，最後以美味燒肉與百萬夜景完美收尾！</p>
           </div>
         </div>
@@ -318,7 +352,7 @@
             <img src="assets/day3.png" alt="富良野薰衣草" class="illustration-img">
           </div>
           <div class="day-title-info">
-            <h2>Day 3：拼布之路 ➔ 彩虹花田 ➔ 唯我獨尊咖哩與悠閒富良野 🌸</h2>
+            <h2>Day 3：拼布之路 ➔ 彩虹花田 ➔ 唯我獨尊咖哩與悠閒富良野 🌸 <span class="header-weather"><i class="fa-solid fa-sun"></i> ☀️ 10°C ~ 24°C</span></h2>
             <p class="day-summary">進入美瑛與富良野的核心景致！行經如畫的丘陵，造訪最著名的富良野富田農場，品嚐超人氣日式咖哩，入住幽靜的瀾山酒店。</p>
           </div>
         </div>
@@ -418,7 +452,7 @@
             <img src="assets/day4.png" alt="地獄谷與花火" class="illustration-img">
           </div>
           <div class="day-title-info">
-            <h2>Day 4：溫馨牧場 ➔ 三井Outlet狂購 ➔ 地獄谷震撼 ➔ 洞爺湖煙火會席 🎆</h2>
+            <h2>Day 4：溫馨牧場 ➔ 三井Outlet狂購 ➔ 地獄谷震撼 ➔ 洞爺湖煙火會席 🎆 <span class="header-weather"><i class="fa-solid fa-wind"></i> 💨 12°C ~ 18°C</span></h2>
             <p class="day-summary">從農場體驗出發，中午在北海道最大 Outlet 享受購物與美食，下午走訪煙霧繚繞的地獄谷，晚間入住洞爺湖溫泉飯店，欣賞湖畔施放的絢爛花火！</p>
           </div>
         </div>
@@ -496,7 +530,7 @@
             <img src="assets/day5.png" alt="小樽與海鮮" class="illustration-img">
           </div>
           <div class="day-title-info">
-            <h2>Day 5：熊牧場 ➔ 浪漫小樽三角市場蟹宴 ➔ 還車 ➔ 札幌湯咖哩與夜景 🦀</h2>
+            <h2>Day 5：熊牧場 ➔ 浪漫小樽三角市場蟹宴 ➔ 還車 ➔ 札幌湯咖哩與夜景 🦀 <span class="header-weather"><i class="fa-solid fa-cloud-sun"></i> ⛅ 12°C ~ 20°C</span></h2>
             <p class="day-summary">上午近距離餵食憨萌棕熊、搭乘有珠山纜車眺望活火山；下午直奔浪漫小樽運河，在三角市場豪邁品嚐現蒸長腳蟹；傍晚回到札幌還車，晚上挑戰經典湯咖哩與高空夜景！</p>
           </div>
         </div>
@@ -596,7 +630,7 @@
             <img src="assets/day6.png" alt="伴手禮與回程" class="illustration-img">
           </div>
           <div class="day-title-info">
-            <h2>Day 6：二條市場哈密瓜 ➔ 白色戀人夢幻城堡 ➔ 大丸血拼 ➔ 機場返國 ✈️</h2>
+            <h2>Day 6：二條市場哈密瓜 ➔ 白色戀人夢幻城堡 ➔ 大丸血拼 ➔ 機場返國 ✈️ <span class="header-weather"><i class="fa-solid fa-cloud-sun"></i> ⛅ 14°C ~ 22°C</span></h2>
             <p class="day-summary">最後一天！早上品嚐極致鮮甜的初夏哈密瓜，接著走入夢幻白色戀人公園，中午享用香氣四溢的十勝豚丼，在百貨公司做最後的伴手禮衝刺，下午搭乘火車前往新千歲機場。</p>
           </div>
         </div>
